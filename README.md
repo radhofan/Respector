@@ -1,3 +1,5 @@
+# GO TO SOURCE/README.md TO PRODUCE INSIDE TROVI/BINDER
+
 # Respector Replication Package (ICSE 2024)
 
 This is the artifact of the paper ***Generating REST API Specifications through Static Analysis***, in Proceedings of the 46th International Conference on Software Engineering (ICSE), 2024 by Ruikai Huang, Manish Motwani, Idel Martinez and Alessandro Orso.

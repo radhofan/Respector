@@ -1,3 +1,12 @@
+### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE A TERMINAL IN EITHER TROVI/BINDER
+### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
+### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/6cbb4948-da03-44c7-b139-e2d086e26094
+### REPRODUCE THIS REPO IN BINDER VIA THIS LINK: https://mybinder.org/ 
+    - GitHub Repository: `[Insert GitHub Repo Link Here]`  
+    - Notebook File (`.ipynb`):** `[Insert Notebook File Name Here]`  
+### ORIGINAL REPO LINK: https://github.com/seal-research/gluetest
+
+# GlueTest: Testing Code Translation via Language Interoperability
 
 # Dependencies
 
@@ -6,6 +15,37 @@
 - Install Maven.
 - Install Gradle.
 - Install Z3 (following pre-built Z3 instruction below)
+
+## Installations
+
+Install Java:
+```bash
+sudo apt update
+sudo apt install -y openjdk-11-jdk openjdk-8-jdk
+```
+
+Install Maven:
+```bash
+sudo apt install -y maven
+```
+
+Install Gradle:
+```bash
+wget https://services.gradle.org/distributions/gradle-8.5-bin.zip -O gradle.zip
+sudo unzip gradle.zip -d /opt/gradle
+echo 'export PATH=/opt/gradle/gradle-8.5/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Prebuilt Z3:
+```bash
+wget https://github.com/Z3Prover/z3/releases/download/z3-4.12.2/z3-4.12.2-x64-ubuntu-18.04.zip -O z3.zip
+sudo apt install -y zip unzip
+unzip z3.zip
+sudo mv z3-4.12.2-x64-ubuntu-18.04 /opt/z3
+echo 'export PATH=/opt/z3/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+```
 
 ## Pre-built Z3
 
