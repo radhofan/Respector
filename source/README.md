@@ -2,8 +2,8 @@
 ### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
 ### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/6cbb4948-da03-44c7-b139-e2d086e26094
 ### REPRODUCE THIS REPO IN BINDER VIA THIS LINK: https://mybinder.org/ 
-    - GitHub Repository: `[Insert GitHub Repo Link Here]`  
-    - Notebook File (`.ipynb`):** `[Insert Notebook File Name Here]`  
+    - GitHub Repository : `https://github.com/radhofan/rv-study-artifacts.git`  
+    - Notebook File : `reproduce.ipynb`  
 ### ORIGINAL REPO LINK: https://github.com/seal-research/gluetest
 
 # GlueTest: Testing Code Translation via Language Interoperability
